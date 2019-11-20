@@ -1,2 +1,2 @@
 # photography-portfolio
-Basic portfolio website
+Basic Photography portfolio website
