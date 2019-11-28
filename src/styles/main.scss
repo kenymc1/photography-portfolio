@@ -1,6 +1,103 @@
 @import "~bootstrap/scss/bootstrap";
 
 
-body {
-  background-color: blue;
+
+.hero img {
+  width: 100%;
+  margin-top: 80px;
+}
+
+
+
+// --------------------------------------------------------------about
+#about {
+  background-image: url(/src/img/camera-canon-dslr-electronics-243757.jpg);
+  height: 450px;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  // margin-bottom: 80px;
+  color: azure;
+  text-align: center;
+  // padding-top: 80px;
+  padding: 80px;
+}
+
+
+.how img {
+  width: 100%;
+}
+
+
+.how {
+  color: white;
+
+  .text {
+    position: absolute;
+    top: 190%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    // text-align: center;
+  }
+
+  .how h1 {
+    text-transform: uppercase;
+    margin: 0;
+    // font-size: 6em;
+    white-space: nowrap;
+  }
+
+  .how p {
+    margin: 0;
+    // font-size: 2rem;
+  }
+
+}
+
+// --------------------------------------------------------focus
+.focus {
+  background-image: url(/src/img/grayscale-photography-of-naked-woman-1552520.jpg);
+  height: 450px;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  // margin-bottom: 80px;
+  color: azure;
+  text-align: center;
+  // padding-top: 80px;
+  padding: 80px;
+}
+
+// --------------------------------------------------------footer
+.footer h5 {
+  color: grey;
+  padding-top: 30px;
+}
+
+.footer p {
+  color: grey;
+}
+
+.social .fab {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.social::after {
+  content: "";
+  background: #578DC7;
+  display: block;
+  height: 3px;
+  width: 300px;
+  margin: 20px auto 5px;
+}
+
+i {
+  color: #578DC7;
 }
