@@ -74,6 +74,22 @@
   padding: 80px;
 }
 
+#contact {
+  color: darkgrey;
+  margin-bottom: 20px;
+  h1 {
+    margin-bottom: 40px;
+  }
+  h1::after {
+    content: "";
+    background: #578DC7;
+    display: block;
+    height: 3px;
+    width: 300px;
+    margin: 20px auto 5px;
+  }
+}
+
 // --------------------------------------------------------footer
 .footer h5 {
   color: grey;
