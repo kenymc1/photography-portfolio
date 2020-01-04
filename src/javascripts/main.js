@@ -1,7 +1,6 @@
 // import 'bootstrap';
 import '../styles/main.scss';
 
-console.error('Hello world!');
 
 const allPictures = [
   {
@@ -211,58 +210,56 @@ const landCards = () => {
 };
 
 const sortCards = () => {
-  console.log('test');
   visiblePictures = allPictures.filter((picture) => picture.color === 'b/w');
   printCards();
 };
+
 const fullColorCards = () => {
-  console.log('test');
   visiblePictures = allPictures.filter((picture) => picture.color === 'full');
   printCards();
 };
 
+
 const studioCards = () => {
-  console.log('test');
   visiblePictures = allPictures.filter((picture) => picture.occasion === 'studio');
   printCards();
 };
 
+
 const tripCards = () => {
-  console.log('test');
   visiblePictures = allPictures.filter((picture) => picture.occasion === 'trip');
   printCards();
 };
 
+
 const weddingCards = () => {
-  console.log('test');
   visiblePictures = allPictures.filter((picture) => picture.occasion === 'wedding');
   printCards();
 };
 
+
 const yorkCards = () => {
-  console.log('test');
   visiblePictures = allPictures.filter((picture) => picture.location === 'newYork');
   printCards();
 };
 
+
 const californiaCards = () => {
-  console.log('test');
   visiblePictures = allPictures.filter((picture) => picture.location === 'california');
   printCards();
 };
 
+
 const indiaCards = () => {
-  console.log('test');
   visiblePictures = allPictures.filter((picture) => picture.location === 'india');
   printCards();
 };
 
+
 const turkeyCards = () => {
-  console.log('test');
   visiblePictures = allPictures.filter((picture) => picture.location === 'turkey');
   printCards();
 };
-
 
 // document.getElementById('port').addEventListener('click', portCards);
 document.getElementById('land').addEventListener('click', landCards);
