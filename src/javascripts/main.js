@@ -197,11 +197,11 @@ $('#card-place').append(printCards(visiblePictures));
 
 printCards();
 
-// const portCards = () => {
-//   console.log('port');
-//   visiblePictures = allPictures.filter((picture) => picture.orientation === 'portrait');
-//   printCards();
-// };
+const portCards = () => {
+  console.log('port');
+  visiblePictures = allPictures.filter((picture) => picture.orientation === 'portrait');
+  printCards();
+};
 
 const landCards = () => {
   console.log('land');
@@ -261,7 +261,7 @@ const turkeyCards = () => {
   printCards();
 };
 
-// document.getElementById('port').addEventListener('click', portCards);
+document.getElementById('port').addEventListener('click', portCards);
 document.getElementById('land').addEventListener('click', landCards);
 document.getElementById('blackWhite').addEventListener('click', sortCards);
 document.getElementById('full').addEventListener('click', fullColorCards);
