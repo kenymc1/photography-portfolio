@@ -4,7 +4,7 @@
 use this appication to select pizza topping s and get a final cost for your pizza ceation.
 
 ## Screenshots
-![]
+https://github.com/kenymc1/photography-portfolio/issues/1#issue-545296946
 
 
 ## How to run
